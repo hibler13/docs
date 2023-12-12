@@ -151,15 +151,15 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@aws-amplify/amplify-cli-core@^4.2.10":
-  version "4.2.13"
-  resolved "https://registry.yarnpkg.com/@aws-amplify/amplify-cli-core/-/amplify-cli-core-4.2.13.tgz#89ed9c340ecfec980ac8996407e1bd96b1bcd49e"
-  integrity sha512-GRCVlP0TyXhVaC/3hPJl55nHY8EqZw7sVdKglNmgVSRu1X+EPDFp+QFPEemSbcirgGQ/r5IoBdyQybDLXAY3bw==
+"@aws-amplify/amplify-cli-core@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@aws-amplify/amplify-cli-core/-/amplify-cli-core-4.3.0.tgz#e1ab52857111615ba4da0a839a26dc850d675109"
+  integrity sha512-W0G2jdZBRStmIF7/KnfXgiU+ALGepBdWz6j7OLLbtAn9/S8OgBb9mCIohWCYoa5NGYKSzLZpkl9XQz5K8gZ2rg==
   dependencies:
     "@aws-amplify/amplify-cli-logger" "1.3.8"
     "@aws-amplify/amplify-function-plugin-interface" "1.12.1"
     "@aws-amplify/amplify-prompts" "2.8.6"
-    "@aws-amplify/graphql-transformer-interfaces" "^3.2.2"
+    "@aws-amplify/graphql-transformer-interfaces" "^3.3.2"
     "@aws-sdk/util-arn-parser" "^3.310.0"
     "@yarnpkg/lockfile" "^1.1.0"
     ajv "^6.12.6"
@@ -327,10 +327,10 @@
     camelcase-keys "6.2.2"
     tslib "^1.8.0"
 
-"@aws-amplify/graphql-transformer-interfaces@^3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@aws-amplify/graphql-transformer-interfaces/-/graphql-transformer-interfaces-3.2.2.tgz#97f7826fc4a233c6cc502759fd90f661e6bb868e"
-  integrity sha512-hEZze0cxTUn6cerwKFnGKzz8+pHC29kZ0aIjkxEXfm4brZQOlqmGPPBxtsv2uSxjhn2EA8QdKSO5AARiVnGV+g==
+"@aws-amplify/graphql-transformer-interfaces@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@aws-amplify/graphql-transformer-interfaces/-/graphql-transformer-interfaces-3.3.2.tgz#ee0619e3f87b6b1f30400ac9236292ffa7e8ff7b"
+  integrity sha512-Pi6sfB+k4ImkgR40q/QhOVgXzvKhoxRn6ONrF22r2n7pE+NA4wiWlEoveMi8t50CJ22Jsoy+vp5BifA/2legjQ==
   dependencies:
     graphql "^15.5.0"
 
