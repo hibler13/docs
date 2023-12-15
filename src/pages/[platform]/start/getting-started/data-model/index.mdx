@@ -313,9 +313,11 @@ const initialState: CreateTodoInput = { name: '', description: '' };
 const client = generateClient();
 
 const App = () => {
+  // highlight-start
   const [formState, setFormState] = useState<CreateTodoInput>(initialState);
   const [todos, setTodos] = useState<Todo[] | CreateTodoInput[]>([]);
-
+  // highlight-end
+  
   useEffect(() => {
     fetchTodos();
   }, []);
@@ -433,11 +435,9 @@ const App = () => {
   const [formState, setFormState] = useState(initialState);
   const [todos, setTodos] = useState([]);
 
-  // highlight-start
   useEffect(() => {
     fetchTodos();
   }, []);
-  //highlight-end
 
   function setInput(key, value) {
     setFormState({ ...formState, [key]: value });
